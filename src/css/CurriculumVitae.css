@@ -1,0 +1,76 @@
+:root {
+    --rojo : red;
+    --rojoflojo : rgb(255, 97, 97);
+    --grisflojo : rgb(189, 189, 189);
+    --gris : rgb(88, 88, 88);
+    --blanco : rgb(247, 247, 247);
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0%;
+    padding: 0%;
+    border: 0px;
+}
+
+.headertop {
+    display: flex;
+    margin: 0%;
+    padding: 0%;
+    background-color: var(--grisflojo);
+}
+
+.h1headertop {
+    font-size: x-large;
+    margin: 0%;
+    padding: 0.5rem;
+}
+
+.nav {
+    margin: 0%;
+    padding: 0%;
+    background-color: var(--gris);
+    position: sticky;
+    top: 0px;
+}
+
+.ulnav {
+    margin: 0% 0% 0% 1rem;
+    padding: 0.6rem;
+    display: flex;
+    list-style: none;
+}
+.linav {
+    margin-right: 4rem;
+}
+.anav {
+    text-decoration: none;
+    color: var(--blanco);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.divh2 {
+    display: flex;
+}
+
+.circuloverde {
+    background-color: green;
+    width: 15px;
+    height: 15px;
+    border: 1px solid green;
+    border-radius: 100%;
+    margin-top: 25px;
+}
+
+.circuloblanco {
+    background-color: green;
+    width: 15px;
+    height: 15px;
+    border: 1px solid green;
+    border-radius: 100%;
+    margin-top: 25px;
+}
