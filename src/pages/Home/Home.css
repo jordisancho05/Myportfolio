@@ -1,0 +1,23 @@
+.home {
+    min-height: 79.5vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.home-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-right: 5rem;
+}
+
+.home-profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}

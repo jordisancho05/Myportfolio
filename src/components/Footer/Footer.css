@@ -1,0 +1,26 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+
+  background-color: var(--nav-bg);
+  color: var(--text);
+
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-icons {
+  display: flex;
+  gap: 1rem;
+}
+
+.footer-icons a {
+  color: inherit;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.footer-icons a:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
