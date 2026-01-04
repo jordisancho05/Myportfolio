@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { useUI } from '../../context/UIContext.jsx'
+import { useUI } from '../../context/UIContext'
 import './Navbar.css'
 
 export default function Navbar() {

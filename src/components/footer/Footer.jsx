@@ -1,7 +1,7 @@
 import Mail from "lucide-react/dist/esm/icons/mail"
 import GithubIcon from "lucide-react/dist/esm/icons/github"
 import LinkedinIcon from "lucide-react/dist/esm/icons/linkedin"
-import { useUI } from "../../context/UIContext.jsx"
+import { useUI } from "../../context/UIContext"
 import './Footer.css'
 
 export default function Footer() {
