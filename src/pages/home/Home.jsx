@@ -1,7 +1,7 @@
 import './Home.css'
-import Profile from '../../components/Profile/Profile'
-import Intro from '../../components/Intro/Intro'
-import Joke from '../../components/Joke/Joke'
+import Profile from '../../components/profile/Profile'
+import Intro from '../../components/intro/Intro'
+import Joke from '../../components/joke/Joke'
 
 export default function Home() {
     return (
