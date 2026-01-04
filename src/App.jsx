@@ -1,10 +1,10 @@
 import { Routes, Route } from 'react-router-dom'
 import './App.css'
-import Home from './pages/Home/Home.jsx'
-import About from './Pages/About/About.jsx'
-import Proyectos from './Pages/Proyectos/Proyectos.jsx'
-import Navbar from './components/Navbar/Navbar.jsx'
-import Footer from './components/Footer/Footer.jsx'
+import Home from './pages/Home/Home'
+import About from './Pages/About/About'
+import Proyectos from './Pages/Proyectos/Proyectos'
+import Navbar from './components/navbar/Navbar'
+import Footer from './components/footer/Footer'
 
 function App() {
   return (
